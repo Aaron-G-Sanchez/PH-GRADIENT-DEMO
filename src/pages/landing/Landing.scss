@@ -1,0 +1,81 @@
+.landing-container {
+  height: 100%;
+  width: 100%;
+  overflow-y: scroll;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+}
+
+.hero-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 85%;
+  width: 100%;
+  background-image: url('https://i.imgur.com/RGtX0EM.jpg');
+  background-position: bottom;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0, .1) 50%, rgba(18,18,18,1) 95%);
+  }
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10%;
+  width: 80%;
+}
+
+.logo {
+  height: 100%;
+}
+
+.btn {
+  font-size: 1em;
+  padding: .5em;
+  color: #eef4ed;
+  background: none;
+  border-radius: 10px;
+  transition: .3s;
+  border: 3px solid #eef4ed;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #eef4ed;
+    color: rgb(18, 18, 18);
+  }
+}
+
+.title-container {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+
+.title {
+  font-size: 10em;
+}
+
+.info-container {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
