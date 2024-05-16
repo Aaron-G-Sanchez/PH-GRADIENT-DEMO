@@ -10,12 +10,16 @@ export const Landing = () => {
            <button className='btn'>Login</button>
           </nav>
           <div className='title-container'>
+            <span className='spacer'></span>
             <h1 className='title'>PROJECT<br/>HERMES</h1>
+            <div className='description-container'>
+              <p className='description'>Find your duo with Project Hermes. Whether you're looking for someone to help complete a quest line or run some ranked, Project Hermes has you covered.</p>
+            </div>
           </div>
         </div>
         <div className='info-container'>
           <div className='display-container'>
-            <img src="./src/public/CONNECTION_ICON_V2.png" alt="Icon illustrating connected users." className='snippet-icon'/>
+            <img src="./src/public/CONNECTION_ICON_V1.png" alt="Icon illustrating connected users." className='snippet-icon'/>
           </div>
           <div className='dialog-container'>
             <h2>Go beyond just games.</h2>
@@ -33,7 +37,7 @@ export const Landing = () => {
         </div>
         <div className='info-container'>
           <div className='display-container'>
-            <img src="./src/public/REMATCH_ICON_V4.png" alt="Icon illustrating rematch functionality." className='snippet-icon'/>
+            <img src="./src/public/REMATCH_ICON_V1.png" alt="Icon illustrating rematch functionality." className='snippet-icon'/>
           </div>
            <div className='dialog-container'>
             <h2>Not the vibes?</h2>
