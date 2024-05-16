@@ -77,7 +77,7 @@
 }
 
 .info-container {
-  height: 50%;
+  height: 35%;
   width: 100%;
   display: flex;
   align-items: center;
@@ -94,20 +94,18 @@
   // border-radius: 15px;
 }
 
-.connected-users-snippet {
-  width: 90%;
-  // height: 80%;
+.snippet-icon {
+  width: 60%;
+  max-width: 500px;
 }
 
-.messenger-snippet {
-  width: 80%;
-}
+
 
 .dialog-container {
   width: 30%;
   padding: 25px;
-  border: 3px solid #eef4ed;
-  border-radius: 15px;
+  // border: 3px solid #eef4ed;
+  // border-radius: 15px;
 }
 
 .footer-container {

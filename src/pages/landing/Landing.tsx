@@ -15,7 +15,7 @@ export const Landing = () => {
         </div>
         <div className='info-container'>
           <div className='display-container'>
-            <img src="./src/public/CONNECTION_ICON_V1.png" alt="Icon illustrating connected users." className='connected-users-snippet'/>
+            <img src="./src/public/CONNECTION_ICON_V2.png" alt="Icon illustrating connected users." className='snippet-icon'/>
           </div>
           <div className='dialog-container'>
             <h2>Go beyond just games.</h2>
@@ -28,12 +28,12 @@ export const Landing = () => {
             <p>Once matched, communicate via our low-latency text chat.</p>
           </div>
           <div className='display-container'>
-            <img src="./src/public/MESSENGER_ICON_V1.png" alt="Messenger icon." className='messenger-snippet'/>
+            <img src="./src/public/MESSENGER_ICON_V1.png" alt="Messenger icon." className='snippet-icon'/>
           </div>
         </div>
         <div className='info-container'>
           <div className='display-container'>
-            <img src="./src/public/REMATCH_ICON_V4.png" alt="Icon illustrating rematch functionality." className='messenger-snippet'/>
+            <img src="./src/public/REMATCH_ICON_V4.png" alt="Icon illustrating rematch functionality." className='snippet-icon'/>
           </div>
            <div className='dialog-container'>
             <h2>Not the vibes?</h2>
